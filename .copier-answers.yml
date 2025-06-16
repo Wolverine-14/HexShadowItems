@@ -15,5 +15,5 @@ mappings_name: Mojmap
 minecraft_version_in_mod_version: false
 mod_version: 0.0.1
 modid: shadowitems
-package: io.github.wolverine-14.shadowitems
+package: at.petrak.hexcasting
 sources_url: https://github.com/Wolverine-14/HexShadowItems
