@@ -1,0 +1,8 @@
+{
+  hexdoc: {
+    shadowitems: {
+      title: "Hex Shadow Items Book",
+      description: "Hex Shadow Items addon for Hex Casting",
+    },
+  }
+}

@@ -1,0 +1,46 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[${versions.kotlin_forge},)"
+license = "MIT"
+
+[[mods]]
+modId = "shadowitems"
+version = "${version}"
+displayName = "Hex Shadow Items"
+logoFile = "assets/shadowitems/icon.png"
+authors = "Wolverine-14"
+description = "Hex Shadow Items addon for Hex Casting"
+
+[[dependencies.shadowitems]]
+modId = "forge"
+mandatory = true
+versionRange = "[${versions.forge_dependency},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shadowitems]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${versions.minecraft},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shadowitems]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${versions.architectury},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shadowitems]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[${versions.cloth_config},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shadowitems]]
+modId = "hexcasting"
+mandatory = true
+versionRange = "[${versions.hexcasting_dependency},)"
+ordering = "NONE"
+side = "BOTH"

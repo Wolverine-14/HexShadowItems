@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "at.petrak.hexcasting.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinDatagenMain"
+  ],
+  "plugin": "at.petrak.hexcasting.forge.mixin.ForgeMixinConfigPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

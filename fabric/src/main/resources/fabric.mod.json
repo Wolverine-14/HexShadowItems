@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowitems",
+  "version": "${version}",
+  "name": "Hex Shadow Items",
+  "description": "Hex Shadow Items addon for Hex Casting",
+  "authors": [
+    "Wolverine-14"
+  ],
+  "contact": {
+    "homepage": "https://wolverine-14.github.io/HexShadowItems",
+    "sources": "https://github.com/Wolverine-14/HexShadowItems"
+  },
+  "license": "MIT",
+  "icon": "assets/shadowitems/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [{
+      "adapter": "kotlin",
+      "value": "at.petrak.hexcasting.fabric.FabricShadowitems"
+    }],
+    "client": [{
+      "adapter": "kotlin",
+      "value": "at.petrak.hexcasting.fabric.FabricShadowitemsClient"
+    }],
+    "modmenu": [{
+      "adapter": "kotlin",
+      "value": "at.petrak.hexcasting.fabric.FabricShadowitemsModMenu"
+    }]
+  },
+  "mixins": [
+    "shadowitems-common.mixins.json",
+    "shadowitems-fabric.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${versions.minecraft}",
+    "fabricloader": ">=${versions.fabric_loader}",
+    "fabric-api": ">=${versions.fabric_api}",
+    "fabric-language-kotlin": ">=${versions.kotlin_fabric}",
+    "architectury": ">=${versions.architectury}",
+    "hexcasting": ">=${versions.hexcasting_dependency}",
+    "cloth-config": ">=${versions.clothConfig}"
+  },
+  "suggests": {
+    "modmenu": ">=${versions.modMenu}"
+  }
+}
