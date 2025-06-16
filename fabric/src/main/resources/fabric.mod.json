@@ -17,15 +17,15 @@
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "at.petrak.hexcasting.fabric.FabricShadowitems"
+      "value": "io.github.wolverine14.hexshadowitems.fabric.FabricShadowitems"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "at.petrak.hexcasting.fabric.FabricShadowitemsClient"
+      "value": "io.github.wolverine14.hexshadowitems.fabric.FabricShadowitemsClient"
     }],
     "modmenu": [{
       "adapter": "kotlin",
-      "value": "at.petrak.hexcasting.fabric.FabricShadowitemsModMenu"
+      "value": "io.github.wolverine14.hexshadowitems.fabric.FabricShadowitemsModMenu"
     }]
   },
   "mixins": [

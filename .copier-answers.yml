@@ -2,18 +2,13 @@
 # https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
 _commit: v2.0.0
 _src_path: gh:FallingColors/hexdummy
-advanced: true
-capitalize_platforms: false
-classname: Shadowitems
-default_branch: main
+advanced: false
 description: Hex Shadow Items addon for Hex Casting
 display_name: Hex Shadow Items
 github_repo: HexShadowItems
 github_user: Wolverine-14
-homepage_url: https://wolverine-14.github.io/HexShadowItems
 mappings_name: Mojmap
 minecraft_version_in_mod_version: false
 mod_version: 0.0.1
 modid: shadowitems
-package: at.petrak.hexcasting
-sources_url: https://github.com/Wolverine-14/HexShadowItems
+package: io.github.wolverine14.hexshadowitems
