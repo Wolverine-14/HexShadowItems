@@ -1,0 +1,12 @@
+name = "devPack"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2ad8aa470bba75e4f353190529820b92cb43a6491efc1f866ebc32e7562f6b35"
+
+[versions]
+fabric = "0.16.14"
+minecraft = "1.20.1"
